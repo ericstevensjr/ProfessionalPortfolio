@@ -1,25 +1,41 @@
 /* Header styles */
 header {
   position: relative;
-  height: 80px;
-  background-color: #202124;
+  height: auto;
+  background-color: #5c788f;
   color: white;
-  padding: 0 20px;
+  padding: 20px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+}
+
+header h1 {
+  margin-bottom: -10px;
+}
+
+header h2 {
+  margin-bottom: 10px;
 }
 
 nav ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  list-style: none;
 }
 
 nav li {
   margin-right: 20px;
 }
 
+nav a {
+  color: white;
+}
+
 nav a:hover {
-  color: #3f51b5;
+  color: gold;
 }
 
 .menu-btn {
@@ -54,39 +70,70 @@ nav a:hover {
 .header-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .header-content h1 {
   font-size: 2rem;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .header-content h2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .header-contact {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-bottom: 10px;
 }
 
 .header-contact a {
   margin-bottom: 5px;
+  text-align: center;
+  color: white;
+}
+
+.header-contact .phone-link:hover {
+  color: gold;
+}
+
+.header-contact .email-link:hover {
+  color: gold;
 }
 
 .header-social {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .header-social a {
   margin-right: 10px;
   font-size: 1.5rem;
-  color: white;
+  color: whitesmoke;
 }
 
 .header-social a:hover {
-  color: #3f51b5;
+  color: gold;
 }
 
+.main-content h2 {
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  height: auto;
+  background-color: #5c788f;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
