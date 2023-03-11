@@ -21,10 +21,11 @@ header {
   height: auto;
   background-color: #5c788f;
   color: white;
-  padding: 20px;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  object-fit: cover;
 }
 
 header h1 {
@@ -75,16 +76,69 @@ nav a:hover {
   height: 20%;
   width: 15%;
   position: relative;
-  right: 0.25%;
+  right: -3%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 .CIB img {
-  max-width: 100%;
+  max-width: 150%;
   height: auto;
+  align-items: center;
   object-fit: cover;
+}
+
+.school-logos {
+  height: 20%;
+  width: 15%;
+  position: relative;
+  right: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10%;
+}
+
+.school-logos img {
+  max-width: 50%;
+  max-height: 50%;
+  height: fit-content;
+  object-fit: contain;
+  align-items: center;
+  margin: 10px;
+  margin-top: -200px;
+}
+
+.school-logos img:last-child {
+  z-index: 1;
+  margin: 10px;
+}
+
+.right-side-logos {
+  /* Leave space for images here */
+  height: 0%;
+  width: 10%;
+  position: relative;
+  right: -35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -22%;
+
+}
+
+.right-side-logos img {
+  max-width: 75%;
+  height: fit-content;
+  object-fit: cover;
+  align-items: center;
+}
+
+.right-side-logos img:last-child{
+  max-width: 70%;
 }
 
 .header-content {
