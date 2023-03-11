@@ -127,11 +127,16 @@ nav a:hover {
 
 main {
   text-align: center;
+  background-color: #3399CC;
 }
 
 main ul {
   list-style: none;
   margin-right: 2.5%;
+}
+
+body {
+  background-color: #AEAEAE;
 }
 
 footer {
