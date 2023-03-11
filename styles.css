@@ -58,13 +58,15 @@ nav a:hover {
   position: absolute;
   right: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  flex: 1;
 }
 
 .header-images img {
-  height: 40px;
-  margin-right: 10px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .header-content {
