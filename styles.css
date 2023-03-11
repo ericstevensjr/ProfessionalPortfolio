@@ -125,10 +125,9 @@ nav a:hover {
   color: gold;
 }
 
-.main-content h2 {
+main {
   text-align: center;
 }
-
 footer {
   position: relative;
   height: auto;
