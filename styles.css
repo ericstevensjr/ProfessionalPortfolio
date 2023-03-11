@@ -135,6 +135,16 @@ main ul {
   margin-right: 2.5%;
 }
 
+main h1 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+main h2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
 body {
   background-color: #AEAEAE;
 }
