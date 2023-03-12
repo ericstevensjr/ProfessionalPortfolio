@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-  color: gold;
+  color: blue;
 }
 
 .menu-btn {
@@ -173,11 +173,11 @@ nav a:hover {
 }
 
 .header-contact .phone-link:hover {
-  color: gold;
+  color: blue;
 }
 
 .header-contact .email-link:hover {
-  color: gold;
+  color: blue;
 }
 
 .header-social {
@@ -195,7 +195,7 @@ nav a:hover {
 }
 
 .header-social a:hover {
-  color: gold;
+  color: blue;
 }
 
 main {
@@ -219,7 +219,10 @@ main h2 {
 }
 
 body {
-  background-color: #AEAEAE;
+  background-image: url("city-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
