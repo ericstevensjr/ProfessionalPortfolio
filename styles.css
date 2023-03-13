@@ -212,6 +212,7 @@ nav a:hover {
 main {
   text-align: center;
   background-color: #3399CC;
+  color: white;
 }
 
 main ul {
@@ -222,15 +223,17 @@ main ul {
 main h1 {
   text-decoration: underline;
   font-style: italic;
+  color: white;
 }
 
 main h2 {
   text-decoration: underline;
   font-style: italic;
+
 }
 
 body {
-  background-image: url("city-photo.jpg");
+  background-image: url("ocean.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
