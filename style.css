@@ -29,26 +29,47 @@ header {
 
 header nav {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #333;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 10px 0;
+    gap: 20px;
 }
 
 header nav ul li {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 header nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s;
+    padding: 10px;
 }
 
 header nav ul li a:hover {
     color: #aaa;
+}
+
+header nav ul:first-of-type li a {
+    font: 1.2rem;
+    padding: 10px 15px;
+}
+
+header nav .social-media-links a {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.9rem;
 }
 
 nav {
@@ -129,4 +150,50 @@ button[type = "submit"]:hover {
 #home {
     text-align: center;
     padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+footer .footer-social-media a, footer a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    margin: 0 10px;
+}
+
+footer div:not(.footer-social-media) {
+    font-size: 0.9rem;
+}
+
+footer .footer-social-media a:hover {
+    color: #aaa;
 }
