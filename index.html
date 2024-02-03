@@ -8,7 +8,7 @@
         <title>Eric Stevens Jr - Portfolio</title>
 
         <!-- Link to the CSS page that styles the page -->
-        <link rel="stylesheet" href="style.css">
+        <link rel = "stylesheet" href = "style.css">
     </head>
 
     <body>
@@ -19,7 +19,10 @@
                     <li><a href = "#home">Home</a></li>
                     <li><a href = "#aboutme">About Me</a></li>
                     <li><a href = "#portfolio">Portfolio</a></li>
-                    <li><a href = "#contact">Contact</a></li>
+                    <li><a href = "#ventures">Ventures</a></li>
+                    <li><a href = "#blog">Blog Posts</a></li>
+                    <li><a href = "#affiliations">Affiliations</a></li>
+                    <li><a href = "#contact">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,32 +33,16 @@
             <p>Future elevator pitch about myself goes here.</p>
         </section>
 
-        <!-- About me section -->
-        <section id = "aboutme">
-            <h2>About Me</h2>
-            <p>A brief introduction and background.</p>
-        </section>
 
-        <!-- Portfolio section -->
-        <section id = "portfolio">
-            <h2>Portfolio</h2>
-            <!-- Each Project is wrapped in a div with class "project"-->
-            <div class = "project">
-                <h3>Project Title</h3>
-                <p>Project Description</p>
-            </div>
-            
-            <!-- Add more projects here as needed -->
-        </section>
 
         <!-- Contact section with a form for sending messages -->
         <section id = "contact">
             <h2>Contact</h2>
             <!-- Simple contact form -->
             <form>
-                <input type = "text" placeholder = "Eric Stevens Jr.">
-                <input type = "email" placeholder = "ericstevensjr@outlook.com">
-                <textarea placeholder = "Your Message"></textarea>
+                <input type = "text" placeholder = "Your Name" name = "name" required>
+                <input type = "email" placeholder = "Your Email" name = "email" required>
+                <textarea placeholder = "Your Message" name = "message" required></textarea>
                 <button type = "submit">Send</button>
             </form>
         </section>
